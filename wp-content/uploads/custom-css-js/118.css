@@ -1,0 +1,88 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+body
+{
+  background-color : #66E352;
+}
+.branding
+{
+  color: #FF9722;
+}
+.trail-end
+{
+  color: #FF9722;
+}
+.sep
+{
+  color: #EFEFEF;
+}
+.header-navbars__wrapper
+{
+	background-color : #66E352;
+}
+.primary-nav__menu
+{
+	background-color: #66E352;
+  border-radius: 10px;
+  border : 1px solid #66E352;
+  color : #66E352;
+  
+}
+.fp-one
+{
+  background-color: #EFEFEF;
+  border-radius: 10px;
+ border : 1px solid #66E352;
+}
+.fp-two
+{
+  background-color: #EFEFEF;
+  border-radius: 10px;
+ border : 1px solid #66E352;
+}
+.fp-three
+{
+  background-color: #EFEFEF;
+  border-radius: 10px;
+  border : 1px solid #66E352;
+}
+.czr-thumb-wrapper 
+{
+  background-color: #EFEFEF;
+  border-radius: 10px;
+}
+.czr-link-mask
+{
+  border-color: #EFEFEF;
+}
+.fp-text-one
+{
+  color : black;
+}
+.fp-text-two
+{
+  color : black;
+}
+.fp-text-three
+{
+  color : black;
+}
+#main-wrapper
+{
+  background-color : #282A27;
+  /* border : 2px solid #66E352;*/
+  border-radius: 150px;
+}
+.navbar-brand
+{
+  border-radius : 10px;
+}
+#content
+{
+  background-color: #EFEFEF;
+  border-radius: 10px;
+  border : 2px solid #66E352;
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->
