@@ -1,0 +1,10 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 109.21.113.8    database_port: null
+    database_name: projetbicggeteo
+    database_user: projetbicggeteo
+    database_password: Madara1585
+    mailer_transport: smtp
+    mailer_host: 109.21.113.8    mailer_user: null
+    mailer_password: null
+    secret: ThisTokenIsNotSoSecretChangeIt
