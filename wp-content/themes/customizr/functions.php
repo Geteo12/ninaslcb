@@ -44,7 +44,6 @@
 //Fire Customizr
 require_once( get_template_directory() . '/core/init-base.php' );
 
-
 /**
 * THE BEST AND SAFEST WAY TO EXTEND THE CUSTOMIZR THEME WITH YOUR OWN CUSTOM CODE IS TO CREATE A CHILD THEME.
 * You can add code here but it will be lost on upgrade. If you use a child theme, you are safe!

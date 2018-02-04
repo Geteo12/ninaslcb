@@ -6,6 +6,16 @@
  */
 global $EM_Event, $EM_Notices, $bp;
 
+function em_validate($result, $EM_Event)
+{
+	 if (!is_user_logged_in() && $_REQUEST['user_name'] == '')
+	 {
+	  $EM_Event->add_error('le nom est requis');
+	  $result = false;
+	 }
+ 		return $result;
+}
+add_filter('em_event_validate','em_validate', 1, 2);
 //check that user can access this page
 if( is_object($EM_Event) && !$EM_Event->can_manage('edit_events','edit_others_events') ){
 	?>

@@ -10,6 +10,8 @@ if(!function_exists('em_paginate')){ //overridable e.g. in you mu-plugins folder
  * @param array $data If supplied and EM_USE_DATA_ATTS is true/defined, this set of data will be stripped from the URL and added as a data-em-ajax attribute containing data AJAX can use
  * @return string
  */
+
+
 function em_paginate($link, $total, $limit, $page=1, $data=array()){
 	if($limit > 0){
 		$pagesToShow = defined('EM_PAGES_TO_SHOW') ? EM_PAGES_TO_SHOW : 10;
